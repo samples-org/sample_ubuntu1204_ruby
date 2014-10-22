@@ -35,3 +35,4 @@ DEPENDENCIES
   rspec
   simplecov
   simplecov-csv
+  rake
