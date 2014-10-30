@@ -24,6 +24,8 @@ install:
  - bundle install --gemfile="Gemfile"
  - ruby -v
 
+
+
 script:
  - bundle exec rake
 archive: true
