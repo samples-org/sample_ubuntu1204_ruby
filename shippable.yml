@@ -1,10 +1,11 @@
 language: ruby
 
 build_image: shippableimages/ubuntu1204_ruby
+
 rvm:
- # - 2.1.1
-  #- 2.1.2
-  #- 1.9.3
+  - 2.1.1
+  - 2.1.2
+  - 1.9.3
    - 1.9.2
    - jruby
    - ruby-head
