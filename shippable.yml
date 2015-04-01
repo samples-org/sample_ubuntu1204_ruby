@@ -1,13 +1,13 @@
 language: ruby
 
-build_image: shippableimages/ubuntu1204_ruby
+build_image: shippableimages/ubuntu1404_ruby
 rvm:
  # - 2.1.1
   #- 2.1.2
   #- 1.9.3
    - 1.9.2
-   - jruby
-   - ruby-head
+   #- jruby
+  # - ruby-head
    - 1.8.7
   
 env:
@@ -28,3 +28,8 @@ install:
 script:
  - bundle exec rake
 archive: true
+
+after_success:
+- echo "success"
+after_failure:
+- echo "failed"
