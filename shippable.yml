@@ -25,7 +25,6 @@ install:
  - ruby -v
 
 
-
 script:
  - bundle exec rake
 archive: true
